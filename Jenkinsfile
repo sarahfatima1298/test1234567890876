@@ -6,16 +6,5 @@ pipeline {
             snDevOpsStep()
         }
        }
-       stage('Test') {
-        steps {
-            snDevOpsStep()
-        }
-       }
-       stage('Deploy') {
-        steps {
-            snDevOpsStep()
-            snDevOpsChange()
-        }
-       }
    }
 }
